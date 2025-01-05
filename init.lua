@@ -967,5 +967,11 @@ require('lazy').setup({
   },
 })
 
+-- Added by Pablo S. Ocal.
+-- Set spell checker language to US English.
+vim.opt.spelllang = 'en_us'
+-- Turn on spell checker.
+vim.opt.spell = true
+
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
