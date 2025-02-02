@@ -974,6 +974,14 @@ require('lazy').setup({
 vim.opt.spelllang = 'en_us'
 -- Turn on spell checker.
 vim.opt.spell = true
+-- Makes the tab key insert spaces.
+vim.opt.expandtab = true
+-- Makes the tab key insert 4 spaces.
+vim.opt.softtabstop = 4
+-- Makes indentation insert spaces.
+vim.opt.shiftwidth = 4
+-- Makes tab characters 8 spaces long.
+vim.opt.tabstop = 8
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
